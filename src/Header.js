@@ -8,9 +8,9 @@ import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 function Header() {
     return (
         <nav className="header">
-        <Link to="/login">
+        <Link to="/">
           
-          <img className="header__logo" src="https://images.app.goo.gl/SeNX5syzBiNE7ufv5" alt="amazonlogo"/>
+          <img className="header__logo" src="/amazonlogo.png" alt="amazonlogo"/>
         </Link>
         <div className="header__search">
         <input type="text" placeholder="search" className="header__searchInput"/>
